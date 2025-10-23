@@ -1,14 +1,14 @@
 package main
+
 import "fmt"
 
-func main()  {
+func main() {
 	// create a varible
 	const name = "Joshua"
 
 	const secondsInMinute = 60
-	const minutesInHour = 60 
+	const minutesInHour = 60
 	const secondsInHour = secondsInMinute * minutesInHour
-
 
 	// print result
 	fmt.Println("Name: ", name)
@@ -28,5 +28,12 @@ func main()  {
 
 	// still under decimal, the .2 rounds the number to 2 decimal places
 	fmt.Printf("My current gpa %.2f is not cool \n", 2.2222)
+
+	const singer = "Billie Eilish";
+	const music = 153.65
+
+	fmt.Printf("%s is my favorite musician and she has over %.1fk followers on Instagram", singer, music)
+	// returns Billie Eilish is my favorite musician and she has over 153.7k followers on Instagram
+
 
 }
