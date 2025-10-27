@@ -1,7 +1,6 @@
 package main
 
 import "fmt"
-
 func main() {
 	// create a varible
 	const name = "Joshua"
@@ -32,8 +31,22 @@ func main() {
 	const singer = "Billie Eilish";
 	const music = 153.65
 
-	fmt.Printf("%s is my favorite musician and she has over %.1fk followers on Instagram", singer, music)
+	fmt.Printf("%s is my favorite musician and she has over %.1fk followers on Instagram\n", singer, music)
 	// returns Billie Eilish is my favorite musician and she has over 153.7k followers on Instagram
 
 
+	conditionals()
+
+
 }
+
+
+func conditionals()  {
+	height := 4;
+	if height < 4 {
+		fmt.Println("You are short")
+	}else{
+		fmt.Println("tall guy")
+	}
+}
+
