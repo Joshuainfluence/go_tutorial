@@ -42,11 +42,27 @@ func main() {
 
 
 func conditionals()  {
-	height := 4;
-	if height < 4 {
-		fmt.Println("You are short")
-	}else{
-		fmt.Println("tall guy")
+	// height := 4;
+	// if height < 4 {
+	// 	fmt.Println("You are short")
+	// }else{
+	// 	fmt.Println("tall guy")
+	// }
+
+
+
+	// initail statement of an if statement
+	// if INITIAL_STATEMENT; CONDITION{
+	
+	// }
+	const email = "j@gmail.com";
+
+	if length := getLength(email); length < 1{
+		fmt.Println("Invalid email")
 	}
+
+
 }
 
+
+ 
