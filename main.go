@@ -37,6 +37,7 @@ func main() {
 
 	conditionals()
 
+	println(sub(20, 10))
 
 }
 
@@ -55,13 +56,17 @@ func conditionals()  {
 	// if INITIAL_STATEMENT; CONDITION{
 	
 	// }
-	const email = "j@gmail.com";
+	// const email = "j@gmail.com";
 
-	if length := getLength(email); length < 1{
-		fmt.Println("Invalid email")
-	}
+	// if length := getLength(email); length < 1{
+	// 	fmt.Println("Invalid email")
+	// }
 
 
+}
+
+func sub(x int, y int)  int{
+	return x -y
 }
 
 
