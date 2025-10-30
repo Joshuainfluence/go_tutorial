@@ -38,6 +38,11 @@ func main() {
 	conditionals()
 
 	println(sub(20, 10))
+	println(concactinate("Hello", " Influence"))
+	println(concactinate("Hi", " Elon Musk"))
+
+	println(addition(20, 4892))
+
 
 }
 
@@ -69,5 +74,13 @@ func sub(x int, y int)  int{
 	return x -y
 }
 
+func concactinate(s1 string, s2 string) string{
+	return s1 + s2; 
+}
 
- 
+
+
+// if the two arguments are of same data types, the variable type will be declared after the last one
+func addition(x, y int) int{
+	return x + y;
+}
